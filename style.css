@@ -26,6 +26,13 @@ nav li{
 	display: inline;
 	position: relative;
 	right: 30px;
+	text-transform: uppercase;
+}
+
+nav li:hover{
+	color:#00008B;
+	text-decoration: underline;
+	font-weight: bold;
 }
 
 nav a{
@@ -38,7 +45,7 @@ nav a{
 .caixa-main{
 	position: relative;
 	width: 940;
-	margin: 50px auto;
+	margin: 70px auto;
 }
 
 .caixa-main img{
@@ -57,7 +64,9 @@ nav a{
 	padding: 50 20 ;
 }
 
-
+.caixa-main li:hover{
+	border: 3px solid #00008B;
+}
 
 .caixa-main h2{
 	font-size: 20px;
@@ -68,4 +77,19 @@ nav a{
 
 .caixa-main p {
 	margin: 15 0 0 0;
+}
+
+footer{
+	background: #DCDCDC;
+	text-align: center;
+	padding: 10px;
+
+}
+
+footer img{
+	width: 100px;
+}
+
+footer p{
+	font-size: 12px;
 }
