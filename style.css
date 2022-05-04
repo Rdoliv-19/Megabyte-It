@@ -4,9 +4,21 @@
 	margin: 0 auto;
 }
 
+header{
+	background-image: url(fundo.jpg);
+	height: 150px;
+}
+
+h1{
+	position: relative;
+	top: 60px;
+	left: 60px;
+
+}
+
 nav ul{
 	position:absolute;
-	top: 0;
+	top: 70px;
 	right: 0;
 }
 
