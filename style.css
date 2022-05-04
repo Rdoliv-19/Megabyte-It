@@ -34,3 +34,27 @@ nav a{
 	color: blue;
 	text-decoration: none;
 }
+
+.caixa-main{
+	position: relative;
+	width: 940;
+	margin: 50px auto;
+}
+
+.caixa-main img{
+	width: 200px;
+}
+
+.caixa-main li{
+	display: inline-block;
+	margin-right: 20px;
+	text-align: center;
+	vertical-align: top;
+}
+
+.caixa-main h2{
+	font-size: 20px;
+	font-style: italic;
+	margin: 0 0 15 0;
+
+}
