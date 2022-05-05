@@ -23,7 +23,7 @@
 			<div class="caixa-main">
 				<form>
 					<label for="nomesobrenome">Nome e Sobrenome</label>
-					<input type="text" id="nomesobrenome" class="estilo-formulario">
+					<input type="text" id="nomesobrenome" class="estilo-formulario" required placeholder="Seu nome e Sobrenome">
 
 					<label for="email">Email</label>
 					<input type="text" id="email" class="estilo-formulario">
@@ -37,13 +37,26 @@
 					<fieldset>
 						<legend>Como prefere o nosso contato?</legend>
 
-						<label for="radio-email"><input type="radio" name="" value="email" id="radio-email">Email</label>
+						<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
 
-						<label for="radio-telefone"><input type="radio" name="" value="telefone" id="radio-telefone">Telefone</label>
+						<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
 
-						<label for="watsapp"><input type="radio" name="" value="watsapp" id="watsapp">Watsapp</label>
+						<label for="watsapp"><input type="radio" name="contato" value="watsapp" id="watsapp">Watsapp</label>
 
 					</fieldset>
+
+					<fieldset>
+						<legend>Qual horário prefere ser atendido?</legend>
+							<select class="options">
+								<option>Manhã</option>
+								<option>Tarde</option>
+								<option>Noite</option>
+							</select>
+					</fieldset>
+
+					<label for="checkbox"><input type="checkbox" id="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+
+					<input type="submit" value="Enviar formulário" class="enviar">
 				</form>
 			</div>	
 		</main>
