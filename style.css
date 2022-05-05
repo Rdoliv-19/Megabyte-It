@@ -43,6 +43,10 @@ nav a{
 	font-weight: bold;
 }
 
+.banner{
+	width: 100%;
+}
+
 .caixa-main{
 	position: relative;
 	width: 940;
