@@ -45,7 +45,7 @@ nav a{
 .caixa-main{
 	position: relative;
 	width: 940;
-	margin: 70px auto;
+	margin: 50px auto;
 }
 
 .caixa-main img{
@@ -78,6 +78,28 @@ nav a{
 .caixa-main p {
 	margin: 15 0 0 0;
 }
+
+form label{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+form input{
+display: block;
+margin-top: 50px 0 0;
+
+}
+
+.estilo-formulario{
+	display: block;
+	width: 50%;
+	padding: 10px;
+	margin: 0 0 20px;
+}
+
+
 
 footer{
 	background: #DCDCDC;
