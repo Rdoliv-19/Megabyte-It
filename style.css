@@ -86,6 +86,7 @@ nav a{
 text-align: center;
 font-size: 2em ;
 margin:0 0 1em ;
+clear: left;
 }
 
 .caixa-main p {
@@ -104,8 +105,14 @@ margin:0 0 1em ;
 	font-style: italic;
 }
 
-.imagem-servicos{
+.imagem-servicos {
 	width: 60%;
+}
+
+.imagem-sobre{
+	width: 200px;
+	float: left;
+	margin: 0 20px 20px 0;
 }
 
 form label, legend{
