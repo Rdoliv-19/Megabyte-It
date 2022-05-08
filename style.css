@@ -1,8 +1,14 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+
 .caixa{
 	position: relative;
 	width: 940px;
-	margin: 0 auto;
+	margin: 0px auto;
 }
+
+
 
 header{
 	background-image: url(fundo.jpg);
@@ -48,10 +54,10 @@ nav a{
 	width: 100%;
 }
 
-.caixa-main{
+.caixa-centro{
 	position: relative;
 	width: 940;
-	margin: 120px auto;
+	margin: 40px auto;
 }
 
 .caixa-main img{
