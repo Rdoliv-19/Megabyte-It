@@ -33,6 +33,7 @@ nav li{
 	position: relative;
 	right: 30px;
 	text-transform: uppercase;
+
 }
 
 nav li:hover{
@@ -125,6 +126,7 @@ clear: left;
 
 .servicos li{
 	font-size: 18px;
+	list-style-type: disc;
 }
 
 
