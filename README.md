@@ -1,6 +1,9 @@
 ## :star2: Sobre o projeto
 
-<p>Consolidando o conhecimento com HTML e CSS, </p>
+<p>  Consolidando o conhecimento com HTML e CSS, este projeto foi desenvolvido com a finalidade de praticar a criação de formulários, trabalhando com
+classes específicas para formulario com mobile, entendendo o hierarquia do CSS e efeitos de transformações e transições de elementos, melhorando a semântica
+e identação do código
+ </p>
 
 Link do projeto: https://megabyte-it.vercel.app/
 
